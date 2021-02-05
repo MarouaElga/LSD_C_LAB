@@ -6,7 +6,7 @@ float *remontee(float A[N][N], float B[N], int n)
 {
 
   /* A hint: you cant return an array which is allocated in the stack memory. \
-  ** you may consider to create a dynamically allocated array and return a pointer to it. \
+  ** you may cnsider to create a dynamically allocated array and return a pointer to it. \
   ** https://gribblelab.org/CBootCamp/7_Memory_Stack_vs_Heap.html
   */
 
