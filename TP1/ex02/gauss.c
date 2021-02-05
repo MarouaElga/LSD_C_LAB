@@ -8,7 +8,7 @@ float *remontee(float A[N][N], float B[N], int n)
   float   *x;
 
   /* Here we allocate the result verctor \
-  (you're gonna do it yourself in the next exercises)*/
+  */
   x = malloc(sizeof(float) * n);
   x[n-1]=B[n-1]/A[n-1][n-1];
   for(int i=n-2; i>=0;i--){
